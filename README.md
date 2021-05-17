@@ -21,7 +21,7 @@ This repository is a PyTorch implementation of DEC. The workflow is as follows:
 ### Installation
 1. Install RISCluster using instructions contained in the [RISCluster repository readme.md](https://github.com/NeptuneProjects/RISCluster).
 2. Clone this repository to your desired working directory.
-3. Download [environmental data](https://drive.google.com/file/d/16qJWTN-SVUs9CpLaQ3wt3Bct5BPb2qdV/view?usp=sharing) and unzip into /Data.
+3. Download <a href="https://drive.google.com/file/d/16qJWTN-SVUs9CpLaQ3wt3Bct5BPb2qdV/view?usp=sharing" target="_blank">environmental data</a> and unzip into /Data.
 
 ***
 ### Usage
