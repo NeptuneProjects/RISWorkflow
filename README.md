@@ -1,9 +1,5 @@
 # RISWorkflow
-This repository contains data and instructions for how to implement the RISCluster package.
-
-RISCluster is a package that implements **deep embedded clustering** (DEC) of
-seismic data recorded on the Ross Ice Shelf, Antarctica from 2014-2017. This
-package is an accompaniment to a paper submitted to the Journal of Geophysical Research (Jenkins II et al., submitted).
+This repository contains data and instructions for how to implement **deep embedded clustering** (DEC) of seismic data recorded on the Ross Ice Shelf, Antarctica from 2014-2017. This package is an accompaniment to a [paper](https://doi.org/10.1002/essoar.10505894.2) submitted to the Journal of Geophysical Research (Jenkins II et al., submitted Jan 2021).
 
 RISCluster is in the process of being restructured so that it can be installed
 and run on a Mac or Linux environment.
@@ -26,6 +22,8 @@ This repository is a PyTorch implementation of DEC. The workflow is as follows:
 ***
 ### Usage
 The Jupyter notebook **[Workflow.ipynb](https://github.com/NeptuneProjects/RISWorkflow/blob/main/Workflow.ipynb)** contains an end-to-end workflow control that guides the user through all steps of the project, including downloading and pre-processing the seismic data.  Required directories, configuration files, and command-line scripts are generated within the notebook.  For main routine execution, commands are copied from the Jupyter notebook into a terminal window.
+
+Downloading and processing seismic data can take a long time.  For access to the pre-processed seismic data set (16 GB), please contact me and we can arrange how best to transfer the file.
 
 ***
 ### References
