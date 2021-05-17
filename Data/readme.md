@@ -1,0 +1,1 @@
+Place environmental data into this folder.
