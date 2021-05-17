@@ -19,13 +19,15 @@ This repository is a PyTorch implementation of DEC. The workflow is as follows:
 
 ***
 ### Installation
-1. Install RISCluster using instructions in [RISCluster repository](https://github.com/NeptuneProjects/RISCluster).
+1. Install RISCluster using instructions contained in the [RISCluster repository readme.md](https://github.com/NeptuneProjects/RISCluster).
 2. Clone this repository to your desired working directory.
-3. Unzip data files.
+3. Unzip environmental data files.
 
 ***
 ### Usage
+The Jupyter notebook **Workflow.ipynb** contains an end-to-end workflow control that guides the user through all steps of the project, including downloading and pre-processing the seismic data.  All necessary configuration files and command-line scripts are generated within the notebook.  Actual command-line scripts are copied from the Jupyter notebook into a terminal window.
 
+***
 ### References
 *Submitted*: William F. Jenkins II, Peter Gerstoft, Michael J. Bianco, Peter D. Bromirski; *Unsupervised Deep Clustering of Seismic Data: Monitoring the Ross Ice Shelf, Antarctica.* Submitted to Journal of Geophysical Research on 20 Jan 2021; doi: https://doi.org/10.1002/essoar.10505894.2
 
