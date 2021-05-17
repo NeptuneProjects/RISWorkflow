@@ -25,7 +25,7 @@ This repository is a PyTorch implementation of DEC. The workflow is as follows:
 
 ***
 ### Usage
-The Jupyter notebook **Workflow.ipynb** contains an end-to-end workflow control that guides the user through all steps of the project, including downloading and pre-processing the seismic data.  All necessary configuration files and command-line scripts are generated within the notebook.  Actual command-line scripts are copied from the Jupyter notebook into a terminal window.
+The Jupyter notebook **[Workflow.ipynb](https://github.com/NeptuneProjects/RISWorkflow/blob/main/Workflow.ipynb)** contains an end-to-end workflow control that guides the user through all steps of the project, including downloading and pre-processing the seismic data.  All necessary configuration files and command-line scripts are generated within the notebook.  Actual command-line scripts are copied from the Jupyter notebook into a terminal window.
 
 ***
 ### References
