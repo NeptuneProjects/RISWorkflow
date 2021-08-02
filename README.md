@@ -1,5 +1,7 @@
 # RISWorkflow
-![RISArray](RISArrayMapy.jpg)
+
+![RISArray](./RISArrayMapy.jpg)
+
 This repository contains data and instructions for how to implement **deep embedded clustering** (DEC) of seismic data recorded on the Ross Ice Shelf, Antarctica from 2014-2017. This package is an accompaniment to a [paper](https://doi.org/10.1002/essoar.10505894.2) submitted to the Journal of Geophysical Research (Jenkins II et al., submitted Jan 2021).
 
 RISCluster is in the process of being restructured so that it can be installed
