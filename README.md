@@ -4,7 +4,7 @@
 
 This repository contains data and instructions for how to implement deep embedded clustering (DEC) and Gaussian mixture model (GMM) clustering of seismic data recorded on the Ross Ice Shelf, Antarctica from 2014-2017. This package is an accompaniment to the [paper published in the Journal of Geophysical Research: Solid Earth](https://doi.org/10.1029/2021JB021716).
 
-This repository is a PyTorch implementation of DEC. The workflow is as follows:
+The workflow is as follows:
 1. Load and pre-process seismic data.
 2. Use a convolutional auto-encoder to reduce dimensionality of input data.
 3. Perform GMM clustering on latent data.
