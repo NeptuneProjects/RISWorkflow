@@ -2,19 +2,14 @@
 
 <img src="RISArrayMap.jpg" alt="RISArrayMap" width="600"/>
 
-This repository contains data and instructions for how to implement **deep embedded clustering** (DEC) of seismic data recorded on the Ross Ice Shelf, Antarctica from 2014-2017. This package is an accompaniment to a [paper](https://doi.org/10.1002/essoar.10505894.2) submitted to the Journal of Geophysical Research (Jenkins II et al., submitted Jan 2021).
-
-RISCluster is in the process of being restructured so that it can be installed
-and run on a Mac or Linux environment.
+This repository contains data and instructions for how to implement deep embedded clustering (DEC) and Gaussian mixture model (GMM) clustering of seismic data recorded on the Ross Ice Shelf, Antarctica from 2014-2017. This package is an accompaniment to the [paper published in the Journal of Geophysical Research: Solid Earth](https://doi.org/10.1029/2021JB021716).
 
 This repository is a PyTorch implementation of DEC. The workflow is as follows:
-1. Load and pre-process data
-2. Construct a convolutional auto-encoder (AEC)
-3. Tune, train, and validate AEC
-4. Incorporate clustering layer into AEC model architecture
-5. Intialize clusters (K-Means, GMM available)
-6. Train the DEC model: clustering and model training are simultaneous.
-7. Once trained, infer class labels for remainder of the data set.
+1. Load and pre-process seismic data.
+2. Use a convolutional auto-encoder to reduce dimensionality of input data.
+3. Perform GMM clustering on latent data.
+4. Perform DEC clustering on latent data.
+5. Compare results in latent space and data space.
 
 ***
 ### Installation
@@ -26,7 +21,7 @@ This repository is a PyTorch implementation of DEC. The workflow is as follows:
 ### Usage
 The Jupyter notebook **[Workflow.ipynb](https://github.com/NeptuneProjects/RISWorkflow/blob/main/Workflow.ipynb)** contains an end-to-end workflow control that guides the user through all steps of the project, including downloading and pre-processing the seismic data.  Required directories, configuration files, and command-line scripts are generated within the notebook.  For main routine execution, commands are copied from the Jupyter notebook into a terminal window.
 
-Downloading and processing seismic data can take a long time.  For access to the pre-processed seismic data set (16 GB), please contact me and we can arrange how best to transfer the file.
+Downloading and processing seismic data can take a long time. For access to the pre-processed seismic data set (16 GB), please contact me and we can arrange how best to transfer the file.
 
 ***
 ### References
